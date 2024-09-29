@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane id="AnchorPane" fx:id="root" minHeight="500.0" minWidth="500.0" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hasp.mainform.MainFormPresenter">
+    <children>
+        <BorderPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <center>
+                <TextArea fx:id="outputText" BorderPane.alignment="CENTER" />
+            </center>
+            <bottom>
+                <BorderPane prefHeight="57.0" BorderPane.alignment="CENTER_RIGHT">
+                    <left>
+                        <HBox alignment="CENTER_LEFT" prefWidth="200.0" spacing="10.0" BorderPane.alignment="CENTER_LEFT">
+                        </HBox>
+                    </left>
+                    <right>
+                        <HBox alignment="CENTER" prefHeight="57.0" prefWidth="272.0" spacing="30.0" BorderPane.alignment="CENTER">
+                            <children>
+                                <Button fx:id="btnOk" mnemonicParsing="false" onAction="#btnOkPressed" prefWidth="80.0" text="Ok" />
+                                <Button fx:id="btnClose" mnemonicParsing="false" onAction="#btnClosePressed" prefWidth="80.0" text="Close" />
+                            </children>
+                        </HBox>
+                    </right>
+                </BorderPane>
+            </bottom>
+         <top>
+            <MenuBar BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem fx:id="mnuLoad" mnemonicParsing="false" onAction="#mnuLoadPressed" text="Load" />
+                    <MenuItem fx:id="mnuSave" mnemonicParsing="false" onAction="#mnuSavePressed" text="Save" />
+                    <SeparatorMenuItem mnemonicParsing="false" />
+                    <MenuItem fx:id="mnuClose" mnemonicParsing="false" onAction="#btnClosePressed" text="Close" />
+                  </items>
+                </Menu>
+                  <Menu fx:id="mnuAbout" mnemonicParsing="false" onAction="#mnuAboutClicked" text="" />
+              </menus>
+            </MenuBar>
+         </top>
+        </BorderPane>
+    </children>
+</AnchorPane>

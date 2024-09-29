@@ -1,0 +1,43 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix} Copyright (C) 2024 HASP-CNS Tool Development Team
+${licensePrefix} 
+${licensePrefix} This file is part of HASP-CNS Tool
+${licensePrefix}   _   _    _    ____  ____
+${licensePrefix}  | | | |  / \  / ___||  _ \
+${licensePrefix}  | |_| | / _ \ \___ \| |_) |
+${licensePrefix}  |  _  |/ ___ \ ___) |  __/
+${licensePrefix}  |_| |_/_/   \_\____/|_|
+${licensePrefix}                        =============
+${licensePrefix}                     ===================
+${licensePrefix}                  =========================
+${licensePrefix}                =============================
+${licensePrefix}              ==========             =========
+${licensePrefix}             ========                  =========
+${licensePrefix}            ========   @@          @@@@@@ =======
+${licensePrefix}           ======@@@@@@@@@@       @@@@@@@@@======@@@@
+${licensePrefix}     @@@@@@@@@@@@@@@@@@@@@@@@   @@@@@@@@@@@=======@@@@@@@@@@@
+${licensePrefix} @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=======@@
+${licensePrefix}           =======     @@@@@@@@@@@@@@@     =======
+${licensePrefix}           =======      @@@@@@@@@@@@       =======
+${licensePrefix}           =======      @@@@@@@@@@@@@@@    =======
+${licensePrefix}           ========    @@@@@@@            =======
+${licensePrefix}            ========   @@@@@             ========
+${licensePrefix}             ========  @@              =========
+${licensePrefix}              ==========             =========
+${licensePrefix}                ============    =============
+${licensePrefix}                  =========================
+${licensePrefix}                    =====================
+${licensePrefix}                        =============
+${licensePrefix}                     ____ _   _ ____      _____           _
+${licensePrefix}                    / ___| \ | / ___|    |_   _|__   ___ | |
+${licensePrefix}                   | |   |  \| \___ \ _____| |/ _ \ / _ \| |
+${licensePrefix}                   | |___| |\  |___) |_____| | (_) | (_) | |
+${licensePrefix}                    \____|_| \_|____/      |_|\___/ \___/|_|
+${licensePrefix}
+${licensePrefix} can not be copied and/or distributed without permission
+${licensePrefix}
+<#if licenseLast??>
+${licenseLast}
+</#if>
